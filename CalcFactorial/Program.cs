@@ -4,11 +4,7 @@ namespace Factorial
 {
     class Program
     {
-        private static void ValidaEntrada(int entrada)
-        {
-            if (entrada < 0) throw new ArgumentException("não é possível calcular fatorial de números negativos");
-            if (entrada > 20) throw new ArgumentException("número muito grande para calcular fatorial");
-        }
+       
 
         static void Main(string[] args)
         {
@@ -27,7 +23,7 @@ namespace Factorial
                     {
                         throw new ArgumentException("digite apenas números inteiros"); ;
                     }
-                    ValidaEntrada(n);
+                    CalculaFatorial.ValidaEntrada(n);
                 }
                 catch (Exception ex)
                 {

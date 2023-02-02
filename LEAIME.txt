@@ -1,0 +1,6 @@
+Verifique se o Net6 esta instalado, após isso abrir o arquivo CalcFactorial.sln com Visual Studio 2022 ou utilize o VSCode e execute o projeto
+
+Funcionamento
+
+ o projeto é um console ao rodar ele ira solicitar um número para calcular o fatorial, apos validar o dado digitado
+ira realizar o calculo, após isso ira perguntar se deseja calcular o proximo número 
